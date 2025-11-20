@@ -26,7 +26,7 @@ export const useSocket = () => {
   const connect = (username) => {
     socket.connect();
     if (username) {
-      socket.emit('user_join', username);
+      socket.emit('user_join', { username, room: 'general' });
     }
   };
 
