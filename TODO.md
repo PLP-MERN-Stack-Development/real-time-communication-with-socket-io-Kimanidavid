@@ -1,9 +1,0 @@
-- [ ] Fix socket event mismatch in client/src/socket/socket.js: emit { username, room: 'general' } instead of just username
-- [ ] Remove duplicate app.use(cors()) in server/server.js
-- [ ] Create server/public/uploads/ directory for file uploads
-- [ ] Test server startup
-- [ ] Test client startup
-- [ ] Test login functionality
-- [ ] Test sending messages
-- [ ] Test real-time features (multiple users, typing indicators, etc.)
-- [ ] Check for console errors and fix any runtime issues
